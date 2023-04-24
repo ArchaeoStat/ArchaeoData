@@ -5,7 +5,7 @@
 \alias{AngloSaxonBurials}
 \title{Anglo-Saxon Female Burials with Beads}
 \format{
-A data frame with 5,000 rows and 79 columns:
+A \code{\link{data.frame}} with 5,000 rows and 79 columns:
 \describe{
 \item{Begin all dates}{Early boundary}
 \item{UB-6041 (CasD182)}{Date of burial CasD182}
@@ -92,6 +92,6 @@ A data frame with 5,000 rows and 79 columns:
 AngloSaxonBurials
 }
 \description{
-Results of an OxCal calibration
+Results of an OxCal calibration.
 }
 \keyword{datasets}

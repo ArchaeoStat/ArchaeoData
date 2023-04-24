@@ -1,8 +1,7 @@
 #' Calibration of a fishpond chronology
 #'
 #' A data set containing information on the ages of two fishpond deposits.
-#'
-#' @format A data frame with 55,965 rows and 12 variables
+#' @format A [`data.frame`] with 55,965 rows and 12 variables:
 #' \describe{
 #' \item{Iteration}{iteration of the MCMC algorithm}
 #' \item{beta.2..Layer.II.}{end date of Layer II}
@@ -17,12 +16,13 @@
 #' \item{phi.1}{floating parameter}
 #' \item{X}{superfluous column}
 #' }
+#' @keywords datasets
 "Fishpond"
+
 #' Ksar Akil dates calibrated by ChronoModel
 #'
 #' A data set.
-#'
-#' @format A data frame with 30,000 rows and 17 variables:
+#' @format A [`data.frame`] with 30,000 rows and 17 variables:
 #' \describe{
 #'  \item{iter}{iteration of the MCMC algorithm}
 #'  \item{Layer.V}{Layer V}
@@ -42,12 +42,13 @@
 #'  \item{Layer.XX}{Layer XX}
 #'  \item{Layer.XXII}{Layer XXII}
 #' }
+#' @keywords datasets
 "KADatesChronoModel"
+
 #' Ksar Akil dates calibrated by OxCal
 #'
 #' A data set
-#'
-#' @format A data frame with 10,000 rows and 27 variables:
+#' @format A [`data.frame`] with 10,000 rows and 27 variables:
 #' \describe{
 #'  \item{Pass}{iteration of the MCMC algorithm}
 #'  \item{Ethelruda}{Ethelruda}
@@ -77,12 +78,13 @@
 #'  \item{GrA.53005}{GrA 53005}
 #'  \item{end.EPI}{end EPI}
 #' }
+#' @keywords datasets
 "KADatesOxcal"
+
 #' Ksar Akil phases calibrated by ChronoModel
 #'
 #' A data set
-#'
-#' @format A data frame with 30,000 rows and 9 variables:
+#' @format A [`data.frame`] with 30,000 rows and 9 variables:
 #' \describe{
 #'  \item{iter}{iteration of the MCMC algorithm}
 #'  \item{EPI.alpha}{start date of EPI}
@@ -94,12 +96,13 @@
 #'  \item{IUP.alpha}{start date of IUP}
 #'  \item{IUP.beta}{end date of IUP}
 #' }
+#' @keywords datasets
 "KAPhasesChronoModel"
+
 #' Anglo-Saxon Female Burials with Beads
 #'
-#' Results of an OxCal calibration
-#' 
-#' @format A data frame with 5,000 rows and 79 columns:
+#' Results of an OxCal calibration.
+#' @format A [`data.frame`] with 5,000 rows and 79 columns:
 #' \describe{
 #' \item{Begin all dates}{Early boundary}
 #' \item{UB-6041 (CasD182)}{Date of burial CasD182}
@@ -181,4 +184,5 @@
 #' \item{SUERC-39096 (ERL G112)}{Date of burial ERL G112}
 #' \item{End all dates}{Late boundary}
 #' }
+#' @keywords datasets
 "AngloSaxonBurials"

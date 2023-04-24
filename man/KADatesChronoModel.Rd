@@ -5,25 +5,25 @@
 \alias{KADatesChronoModel}
 \title{Ksar Akil dates calibrated by ChronoModel}
 \format{
-A data frame with 30,000 rows and 17 variables:
+A \code{\link{data.frame}} with 30,000 rows and 17 variables:
 \describe{
- \item{iter}{iteration of the MCMC algorithm}
- \item{Layer.V}{Layer V}
- \item{Layer.VI}{Layer VI}
- \item{Layer.XI}{Layer XI}
- \item{Layer.XII}{Layer XII}
- \item{Layer.XVI.4}{Layer XVI 4}
- \item{Layer.XVI.3}{Layer XVI 3}
- \item{Layer.XVI.1}{Layer XVI 1}
- \item{Layer.XVI.2}{Layer XVI 2}
- \item{Layer.XVII.2}{Layer XVII 2}
- \item{Layer.XVII.1}{Layer XVII 1}
- \item{Layer.XVII.3}{Layer XVII 3}
- \item{Layer.XVII.4}{Layer XVII 4}
- \item{Layer.XVIII}{Layer XVIII}
- \item{Layer.XIX}{Layer XIX}
- \item{Layer.XX}{Layer XX}
- \item{Layer.XXII}{Layer XXII}
+\item{iter}{iteration of the MCMC algorithm}
+\item{Layer.V}{Layer V}
+\item{Layer.VI}{Layer VI}
+\item{Layer.XI}{Layer XI}
+\item{Layer.XII}{Layer XII}
+\item{Layer.XVI.4}{Layer XVI 4}
+\item{Layer.XVI.3}{Layer XVI 3}
+\item{Layer.XVI.1}{Layer XVI 1}
+\item{Layer.XVI.2}{Layer XVI 2}
+\item{Layer.XVII.2}{Layer XVII 2}
+\item{Layer.XVII.1}{Layer XVII 1}
+\item{Layer.XVII.3}{Layer XVII 3}
+\item{Layer.XVII.4}{Layer XVII 4}
+\item{Layer.XVIII}{Layer XVIII}
+\item{Layer.XIX}{Layer XIX}
+\item{Layer.XX}{Layer XX}
+\item{Layer.XXII}{Layer XXII}
 }
 }
 \usage{

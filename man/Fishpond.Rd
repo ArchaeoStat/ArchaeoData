@@ -5,7 +5,7 @@
 \alias{Fishpond}
 \title{Calibration of a fishpond chronology}
 \format{
-A data frame with 55,965 rows and 12 variables
+A \code{\link{data.frame}} with 55,965 rows and 12 variables:
 \describe{
 \item{Iteration}{iteration of the MCMC algorithm}
 \item{beta.2..Layer.II.}{end date of Layer II}

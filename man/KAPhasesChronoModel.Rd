@@ -5,17 +5,17 @@
 \alias{KAPhasesChronoModel}
 \title{Ksar Akil phases calibrated by ChronoModel}
 \format{
-A data frame with 30,000 rows and 9 variables:
+A \code{\link{data.frame}} with 30,000 rows and 9 variables:
 \describe{
- \item{iter}{iteration of the MCMC algorithm}
- \item{EPI.alpha}{start date of EPI}
- \item{EPI.beta}{end date of EPI}
- \item{UP.alpha}{start date of UP}
- \item{UP.beta}{end date of UP}
- \item{Ahmarian.alpha}{start date of Ahmarian}
- \item{Ahmarian.beta}{end date of Ahmarian}
- \item{IUP.alpha}{start date of IUP}
- \item{IUP.beta}{end date of IUP}
+\item{iter}{iteration of the MCMC algorithm}
+\item{EPI.alpha}{start date of EPI}
+\item{EPI.beta}{end date of EPI}
+\item{UP.alpha}{start date of UP}
+\item{UP.beta}{end date of UP}
+\item{Ahmarian.alpha}{start date of Ahmarian}
+\item{Ahmarian.beta}{end date of Ahmarian}
+\item{IUP.alpha}{start date of IUP}
+\item{IUP.beta}{end date of IUP}
 }
 }
 \usage{
