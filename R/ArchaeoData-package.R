@@ -1,6 +1,6 @@
 #' @details
 #' \tabular{ll}{
-#'  **Package:** \tab ArchaeoPhases.dataset \cr
+#'  **Package:** \tab ArchaeoData \cr
 #'  **Type:** \tab Package \cr
 #'  **Version:** \tab 0.0.0.9000 \cr
 #'  **License:** \tab GPL-3 \cr
@@ -25,8 +25,8 @@
 #'  BP 92208\cr
 #'  F-44322 Nantes Cedex 3\cr
 #'  France
-#' @name ArchaeoPhases.dataset-package
-#' @aliases ArchaeoPhases.dataset
+#' @name ArchaeoData-package
+#' @aliases ArchaeoData
 #' @docType package
 #' @keywords internal
 "_PACKAGE"

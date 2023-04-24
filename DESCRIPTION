@@ -1,4 +1,4 @@
-Package: ArchaeoPhases.dataset
+Package: ArchaeoData
 Type: Package
 Title: Datasets for 'ArchaeoPhases'
 Version: 0.1.0
@@ -22,8 +22,8 @@ Description: Datasets for chronological modelling with 'ArchaeoPhases'.
     This package provides models and data to reproduce results from
     'ArchaeoPhases' examples and vignettes.
 License: GPL (>= 3)
-URL: https://github.com/ArchaeoStat/ArchaeoPhases.dataset
-BugReports: https://github.com/ArchaeoStat/ArchaeoPhases.dataset/issues
+URL: https://github.com/ArchaeoStat/ArchaeoData
+BugReports: https://github.com/ArchaeoStat/ArchaeoData/issues
 Depends:
     R (>= 3.5.0)
 Encoding: UTF-8

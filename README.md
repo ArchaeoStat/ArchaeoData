@@ -1,14 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ArchaeoPhases.dataset
+# ArchaeoData
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/ArchaeoStat/ArchaeoPhases.dataset/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ArchaeoStat/ArchaeoPhases.dataset/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/ArchaeoStat/ArchaeoData/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ArchaeoStat/ArchaeoData/actions/workflows/R-CMD-check.yaml)
 
 <a href="https://archaeostat.r-universe.dev" class="pkgdown-devel"><img
-src="https://archaeostat.r-universe.dev/badges/ArchaeoPhases.dataset"
+src="https://archaeostat.r-universe.dev/badges/ArchaeoData"
 alt="r-universe" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
@@ -25,24 +25,24 @@ package provides models and data to reproduce results from
 
 ## Installation
 
-You can install the latest version of **ArchaeoPhases.dataset** from
-[our repository](https://archaeostat.r-universe.dev) with:
+You can install the latest version of **ArchaeoData** from [our
+repository](https://archaeostat.r-universe.dev) with:
 
 ``` r
-install.packages("ArchaeoPhases.dataset", repos = "https://archaeostat.r-universe.dev")
+install.packages("ArchaeoData", repos = "https://archaeostat.r-universe.dev")
 ```
 
 And the development version from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("ArchaeoStat/ArchaeoPhases.dataset")
+remotes::install_github("ArchaeoStat/ArchaeoData")
 ```
 
 ## Usage
 
 ``` r
-library(ArchaeoPhases.dataset)
+library(ArchaeoData)
 ```
 
 The `inst/` directory contains:
@@ -69,7 +69,7 @@ library(ArchaeoPhases)
 
 ## Import ChronoModel output
 lezoux_path <- system.file("chronomodel/lezoux/Chain_all_Events.csv", 
-                           package = "ArchaeoPhases.dataset")
+                           package = "ArchaeoData")
 lezoux_event <- read_chronomodel_events(lezoux_path, sep = ";", dec = ",")
 
 ## Plot MCMC sample
@@ -92,7 +92,7 @@ library(oxcAAR)
 quickSetupOxcal()
 
 ## Import the OxCal script
-path_script <- system.file("oxcal/ksarakil.oxcal", package = "ArchaeoPhases.dataset")
+path_script <- system.file("oxcal/ksarakil.oxcal", package = "ArchaeoData")
 ksarakil_script <- paste0(readLines(path_script), collapse = "\n")
 
 ## Execute OxCal
