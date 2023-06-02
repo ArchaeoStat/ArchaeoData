@@ -1,4 +1,4 @@
-"iter","beta_2_layerII","theta_5_layerII","theta_4_layerII","theta_3_layerII","theta_2_layerII","alpha_2_layerII","beta_1_layerIII","theta_1_layerIII","alpha_1_layerIII","phi_1"
+"iteration","beta_2_layer_II","theta_5_layer_II","theta_4_layer_II","theta_3_layer_II","theta_2_layer_II","alpha_2_layer_II","beta_1_layer_III","theta_1_layer_III","alpha_1_layer_III","phi_1"
 50,9,24,46,26,18,50,50,2929,6299,1293
 100,9,32,64,159,77,224,224,2947,3813,1621
 150,9,97,90,210,139,223,223,2799,7120,1440
