@@ -1,0 +1,5 @@
+url: https://ArchaeoStat.github.io/ArchaeoData
+
+- title: Datasets
+  contents:
+  - has_concept("datasets")
