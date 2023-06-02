@@ -1,6 +1,7 @@
 #' Anglo-Saxon Female Burials with Beads
 #'
 #' Results of an OxCal calibration.
+#' @usage data(burials)
 #' @format A [`data.frame`] with 5,000 rows and 77 columns:
 #' \describe{
 #' \item{`UB-6041 (CasD182)`}{Date of burial CasD182.}
@@ -88,6 +89,7 @@
 #' Calibration of a Fishpond Chronology
 #'
 #' A data set containing information on the ages of two fishpond deposits.
+#' @usage data(fishpond)
 #' @format A [`data.frame`] with 55,964 rows and 11 variables:
 #' \describe{
 #' \item{`iteration`}{Iteration of the MCMC algorithm.}
@@ -108,6 +110,7 @@
 
 #' Ksar'Akil Dates Calibrated by OxCal
 #'
+#' @usage data(ksarakil)
 #' @format A [`data.frame`] with 1000 rows and 27 variables:
 #' \describe{
 #'  \item{`Pass`}{iteration of the MCMC algorithm}
@@ -144,6 +147,7 @@
 
 #' Ksar'Akil Dates Calibrated by ChronoModel
 #'
+#' @usage data(ChronoModelEvents)
 #' @format A [`data.frame`] with 30,000 rows and 17 variables:
 #' \describe{
 #'  \item{`iter`}{Iteration of the MCMC algorithm}
@@ -170,6 +174,7 @@
 
 #' Ksar'Akil Phases Calibrated by ChronoModel
 #'
+#' @usage data(ChronoModelPhases)
 #' @format A [`data.frame`] with 30,000 rows and 9 variables:
 #' \describe{
 #'  \item{`iter`}{Iteration of the MCMC algorithm.}

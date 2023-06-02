@@ -20,7 +20,7 @@ Datasets for chronological modelling with 'ArchaeoPhases'. This package provides
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ArchaeoStat/ArchaeoData}
+  \item \url{https://archaeostat.github.io/archaeodata/}
   \item Report bugs at \url{https://github.com/ArchaeoStat/ArchaeoData/issues}
 }
 

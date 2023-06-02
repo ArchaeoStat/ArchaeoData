@@ -27,7 +27,7 @@ A \code{\link{data.frame}} with 30,000 rows and 17 variables:
 }
 }
 \usage{
-ChronoModelEvents
+data(ChronoModelEvents)
 }
 \description{
 Ksar'Akil Dates Calibrated by ChronoModel

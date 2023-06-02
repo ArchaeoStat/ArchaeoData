@@ -19,7 +19,7 @@ A \code{\link{data.frame}} with 30,000 rows and 9 variables:
 }
 }
 \usage{
-ChronoModelPhases
+data(ChronoModelPhases)
 }
 \description{
 Ksar'Akil Phases Calibrated by ChronoModel

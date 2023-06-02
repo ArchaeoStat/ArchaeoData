@@ -87,7 +87,7 @@ A \code{\link{data.frame}} with 5,000 rows and 77 columns:
 }
 }
 \usage{
-burials
+data(burials)
 }
 \description{
 Results of an OxCal calibration.

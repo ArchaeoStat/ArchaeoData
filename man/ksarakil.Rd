@@ -37,7 +37,7 @@ A \code{\link{data.frame}} with 1000 rows and 27 variables:
 }
 }
 \usage{
-ksarakil
+data(ksarakil)
 }
 \description{
 Ksar'Akil Dates Calibrated by OxCal

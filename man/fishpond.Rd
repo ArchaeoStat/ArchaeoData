@@ -21,7 +21,7 @@ A \code{\link{data.frame}} with 55,964 rows and 11 variables:
 }
 }
 \usage{
-fishpond
+data(fishpond)
 }
 \description{
 A data set containing information on the ages of two fishpond deposits.
