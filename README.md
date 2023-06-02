@@ -25,7 +25,8 @@ package provides models and data to reproduce results from
 
 ## Installation
 
-You can install the latest version of **ArchaeoData** from [our
+The size of this package is considerably over the 5 MB limit imposed by
+CRAN. You can install the latest version of **ArchaeoData** from [our
 repository](https://archaeostat.r-universe.dev) with:
 
 ``` r
@@ -39,10 +40,14 @@ And the development version from [GitHub](https://github.com/) with:
 remotes::install_github("ArchaeoStat/ArchaeoData")
 ```
 
-## Usage
+## Local usage
 
 ``` r
+## Load package
 library(ArchaeoData)
+
+## Load data (BCal output)
+data("fishpond")
 ```
 
 The `inst/` directory contains:
@@ -54,68 +59,12 @@ The `inst/` directory contains:
 - [BCal](https://bcal.shef.ac.uk) output files (in the `bcal/`
   subdirectory).
 
-### ChronoModel
-
-This package allows to replicate the following results:
-
-- `ksarakil`: chronology of Ksâr’Akil (Lebanon) – Bosch *et al.* (2015)
-- `lezoux`: chronology of a potter’s kiln from Lezoux (France) –
-  Menessier-Jouannet *et al.* (1995)
+## Remote usage
 
 ``` r
-## Install ArchaeoPhases
-# install.packages("ArchaeoPhases")
+## Load package
 library(ArchaeoPhases)
 
-## Import ChronoModel output
-lezoux_path <- system.file("chronomodel/lezoux/Chain_all_Events.csv", 
-                           package = "ArchaeoData")
-lezoux_event <- read_chronomodel_events(lezoux_path, sep = ";", dec = ",")
-
-## Plot MCMC sample
-plot(lezoux_event, interval = "hpdi")
+## Read BCal output
+fishpond <- read_bcal("https://archaeostat.r-universe.dev/ArchaeoData/data/fishpond/csv")
 ```
-
-<img src="man/figures/README-chronomodel-1.png" width="100%" style="display: block; margin: auto;" />
-
-### OxCal
-
-This package allows to replicate Bosch *et al.* (2015) results with
-OxCal (and ChronoModel).
-
-``` r
-## Install and load oxcAAR
-# install.packages("oxcAAR")
-library(oxcAAR)
-
-## Download and setup OxCal
-quickSetupOxcal()
-
-## Import the OxCal script
-path_script <- system.file("oxcal/ksarakil.oxcal", package = "ArchaeoData")
-ksarakil_script <- paste0(readLines(path_script), collapse = "\n")
-
-## Execute OxCal
-ksarakil_file <- executeOxcalScript(ksarakil_script)
-ksarakil_text <- readOxcalOutput(ksarakil_file)
-ksarakil_data <- parseFullOxcalOutput(ksarakil_text)
-
-## Get the MCMC samples
-path_mcmc <- paste0(dirname(ksarakil_file), "/MCMC_Sample.csv")
-mcmc <- read.csv(path_mcmc, header = TRUE, sep = ",", dec = ".")
-```
-
-## References
-
-Bosch, M. D., Mannino, M. A., Prendergast, A. L., O’Connell, T. C.,
-Demarchi, B., Taylor, S. M., Niven, L., van der Plicht, J. and Hublin,
-J.-J. (2015). New Chronology for Ksâr’Akil (Lebanon) Supports Levantine
-Route of Modern Human Dispersal into Europe. *Proceedings of the
-National Academy of Sciences*, 112(25): 7683-8. DOI:
-[10.1073/pnas.1501529112](https://doi.org/10.1073/pnas.1501529112).
-
-Menessier-Jouannet, C., Bucur IIiana, E. J., Lanos P., Miallier D.
-(1995). Convergence de la typologie de céramiques et de trois méthodes
-chronométriques pour la datation d’un four de potier à Lezoux
-(Puy-de-Dôme). *Revue d’Archéométrie*, 19: 37-47. DOI:
-[10.3406/arsci.1995.926](https://doi.org/10.3406/arsci.1995.926).
