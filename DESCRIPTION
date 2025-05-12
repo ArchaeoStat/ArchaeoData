@@ -5,10 +5,10 @@ Version: 0.1.0
 Authors@R: c(
     person("Anne", "Philippe", , "anne.philippe@univ-nantes.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5331-5087")),
-    person("Thomas S.", "Dye", role = "aut",
-           comment = c(ORCID = "0000-0001-8116-782X")),
     person("Nicolas", "Frerebeau", , "nicolas.frerebeau@u-bordeaux-montaigne.fr", role = "aut",
-           comment = c(ORCID = "0000-0001-5759-4944"))
+           comment = c(ORCID = "0000-0001-5759-4944")),
+    person("Thomas S.", "Dye", role = "aut",
+           comment = c(ORCID = "0000-0001-8116-782X"))
   )
 Maintainer: Anne Philippe <anne.philippe@univ-nantes.fr>
 Description: Datasets for chronological modelling with 'ArchaeoPhases'.
@@ -18,7 +18,7 @@ License: GPL (>= 3)
 URL: https://archaeostat.github.io/archaeodata/
 BugReports: https://github.com/ArchaeoStat/ArchaeoData/issues
 Depends:
-    R (>= 3.5.0)
+    R (>= 3.5)
 Encoding: UTF-8
 LazyData: false
 LazyDataCompression: bzip2

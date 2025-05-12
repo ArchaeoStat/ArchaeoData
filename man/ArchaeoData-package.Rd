@@ -3,7 +3,6 @@
 \docType{package}
 \name{ArchaeoData-package}
 \alias{ArchaeoData-package}
-\alias{_PACKAGE}
 \alias{ArchaeoData}
 \title{ArchaeoData: Datasets for 'ArchaeoPhases'}
 \description{
@@ -11,11 +10,15 @@ Datasets for chronological modelling with 'ArchaeoPhases'. This package provides
 }
 \details{
 \tabular{ll}{
-\strong{Package:} \tab ArchaeoData \cr
-\strong{Type:} \tab Package \cr
 \strong{Version:} \tab 0.1.0 \cr
 \strong{License:} \tab GPL-3 \cr
 }
+
+Laboratoire de Mathématiques Jean Leray (UMR 6629)\cr
+2, rue de la Houssinière\cr
+BP 92208\cr
+F-44322 Nantes Cedex 3\cr
+France
 }
 \seealso{
 Useful links:
@@ -26,23 +29,13 @@ Useful links:
 
 }
 \author{
-\strong{Full list of authors and contributors} (alphabetic order)
+\strong{Maintainer}: Anne Philippe \email{anne.philippe@univ-nantes.fr} (\href{https://orcid.org/0000-0002-5331-5087}{ORCID})
 
-\tabular{ll}{
-Thomas S. Dye \tab \emph{University of Hawai'i at Manoa, USA} \cr
-Nicolas Frerebeau \tab \emph{Université Bordeaux Montaigne, France} \cr
-Anne Philippe \tab \emph{Université de Nantes, France} \cr
+Authors:
+\itemize{
+  \item Nicolas Frerebeau \email{nicolas.frerebeau@u-bordeaux-montaigne.fr} (\href{https://orcid.org/0000-0001-5759-4944}{ORCID})
+  \item Thomas S. Dye (\href{https://orcid.org/0000-0001-8116-782X}{ORCID})
 }
 
-\strong{Package maintainer}
-
-Anne Philippe\cr
-\email{anne.philippe@univ-nantes.fr}
-
-Laboratoire de Mathématiques Jean Leray (UMR 6629)\cr
-2, rue de la Houssinière\cr
-BP 92208\cr
-F-44322 Nantes Cedex 3\cr
-France
 }
 \keyword{internal}
