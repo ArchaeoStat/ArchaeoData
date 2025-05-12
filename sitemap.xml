@@ -1,36 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/404.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/index.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ArchaeoData-package.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ChronoModelEvents.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ChronoModelPhases.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/burials.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/fishpond.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ksarakil.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/404.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/LICENSE.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/authors.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/index.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ArchaeoData-package.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ChronoModelEvents.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ChronoModelPhases.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/burials.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/fishpond.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/index.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoData/reference/ksarakil.html</loc></url>
 </urlset>
+
